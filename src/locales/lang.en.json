@@ -1,0 +1,53 @@
+{
+    "projectSettings": {
+      "navbarSettings": {
+        "displayLogo": "true",
+        "home": "true",
+        "about": "true",
+        "contact": "true",
+        "loginRegister": "false",
+        "languageChanger": "false"
+      },
+      "modules": {
+        "home": "true",
+        "about": "true",
+        "contact": "true"
+            }
+    },
+    "projectRoutes": {
+      "home": " Начало",
+      "about": "За нас",
+      "contact": "Контакти",
+      "changeLanguage": ""
+    },
+    "homePage": {
+      "title": "<b> Риболовът </b> не е просто хоби – той е търпение, стратегия и страст към всяко хвърляне. Големият улов е въпрос на време и упоритост!",
+      "aboutBtn":"Learn more",
+      "joinBtn":"Try our AI Assisstant"
+    },
+
+    "aboutPage":{
+      "mainGoal":"Main Goal",
+      "goalsTitle":"What we offer to our users"
+    }
+,
+    "loginTranslations": {
+      "loginButton":"Login"
+    },
+    "logoutTranslations": {
+      "logoutButton":"Logout"
+    },
+    
+    "registerTranslations": {
+      "registerButton":"Register",
+      "youRegisteredSuccessfully": "You registered successfully",
+      "registerFirstName": "First name",
+      "registerLastName": "Last name",
+      "registerEmail": "Email",
+      "registerPassword": "Password",
+      "registerRepeatPassword": "Repeat password"
+    }
+
+  }
+
+  

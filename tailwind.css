@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Montserrat:wght@400;600&family=Open+Sans:wght@300;400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1, h2, h3 {
+    @apply font-poppins font-bold text-primary;
+  }
+  
+  h2 {
+    @apply text-4xl;
+  }
+
+  p {
+    @apply font-openSans text-neutral;
+  }
+
+  main {
+    @apply px-6 md:px-12;
+  }
+
+  /* Adjusting text for better visibility */
+  .text-secondary {
+    @apply text-secondary;
+  }
+  .text-accent {
+    @apply text-accent;
+  }
+}
