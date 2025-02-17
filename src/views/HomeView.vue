@@ -14,11 +14,7 @@
           We're working hard behind the scenes to bring you an incredible digital experience. Stay tuned!
         </p>
         
-        <div class="mt-8">
-          <button class="px-8 py-4 text-lg font-semibold bg-primary text-white border-2 border-white hover:border-primary hover:bg-white hover:text-primary transition uppercase shadow-lg">
-            Notify Me
-          </button>
-        </div>
+   
       </div>
     </section>
 
