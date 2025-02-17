@@ -59,12 +59,12 @@ import { ref } from 'vue';
 import Footer from '@/components/Global/Footer.vue';
 
 const navItems = ref([
-  { label: "Home", link: "/" },
-  { label: "About", link: "/about" },
-  { label: "Lead generation", link: "/leadGeneration" },
-  { label: "Resources", link: "/resources" },
-  { label: "Consulting", link: "/consulting" },
-  { label: "Contacts", link: "/contact" },
+  // { label: "Home", link: "/" },
+  // { label: "About", link: "/about" },
+  // { label: "Lead generation", link: "/leadGeneration" },
+  // { label: "Resources", link: "/resources" },
+  // { label: "Consulting", link: "/consulting" },
+  // { label: "Contacts", link: "/contact" },
 ]);
 
 const isMenuOpen = ref(false);

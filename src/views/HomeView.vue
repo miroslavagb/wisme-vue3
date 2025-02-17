@@ -2,30 +2,28 @@
   <main class="container mx-auto px-8">
     <!-- Hero Section -->
     <section class="relative w-full min-h-screen flex items-center justify-center text-center">
-      <div class="absolute inset-0 bg-fixed bg-cover bg-center"
-           style="background-image: url('/src/assets/corporate-connected-teamwork-perforated-paper-gear.jpg');">
+      <div class="absolute inset-0 bg-fixed  bg-center bg-cover bg-[url('@/assets/corporate-connected-teamwork-perforated-paper-gear.jpg')]">
         <div class="absolute inset-0 bg-gradient-to-b from-secondary/70 to-primary/60 opacity-90"></div>
       </div>
 
       <div class="relative z-10 text-white px-6 sm:px-12 max-w-3xl">
         <h1 class="text-5xl sm:text-6xl font-extrabold tracking-wide mb-6 drop-shadow-xl">
-          Empowering SMEs for Digital Success
+          Coming Soon
         </h1>
         <p class="text-lg sm:text-xl text-gray-200 max-w-2xl mx-auto drop-shadow-md leading-relaxed">
-          Unlock your business potential with expert digital solutions.
+          We're working hard behind the scenes to bring you an incredible digital experience. Stay tuned!
         </p>
+        
         <div class="mt-8">
-          <router-link to="/lead-generation">
-            <button class="px-8 py-4 text-lg font-semibold bg-primary text-white border-2 border-white hover:border-primary hover:bg-white hover:text-primary transition uppercase shadow-lg">
-              Get Started
-            </button>
-          </router-link>
+          <button class="px-8 py-4 text-lg font-semibold bg-primary text-white border-2 border-white hover:border-primary hover:bg-white hover:text-primary transition uppercase shadow-lg">
+            Notify Me
+          </button>
         </div>
       </div>
     </section>
 
     <!-- Services  -->
-    <section class="py-12 bg-light">
+    <!-- <section class="py-12 bg-light">
       <h2 class="text-4xl font-bold text-center mb-8">Our Services</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div
@@ -45,10 +43,10 @@
           </router-link>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Blog  -->
-    <section class="py-12">
+    <!-- <section class="py-12">
       <h2 class="text-4xl font-bold text-center mb-8">Latest Blog Posts</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div
@@ -71,19 +69,21 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Testimonials -->
-    <section class="py-12 bg-light">
+    <!-- <section class="py-12 bg-light">
       <h2 class="text-4xl font-bold text-center mb-8">What Our Clients Say</h2>
       <div class="text-center text-gray-700 italic">
         <p>“WiSME's expertise has transformed our business. Highly recommend their consulting services!”</p>
       </div>
-    </section>
+    </section> -->
+
+
   </main>
 </template>
 
-<script setup>
+<!-- <script setup>
 import { ref } from "vue";
 import blog1Image from "@/assets/blog1.jpg";
 import blog2Image from "@/assets/blog2.jpg";
@@ -118,4 +118,4 @@ h3 {
   transform: scale(1.03);
   transition: all 0.3s ease-in-out;
 }
-</style>
+</style> -->
